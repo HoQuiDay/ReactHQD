@@ -4,7 +4,7 @@ import { push } from 'connected-react-router';
 // import * as actions from "../store/actions"
 import * as actions from '../../store/actions';
 import './Login.scss';
-import { FormattedMessage } from 'react-intl';
+// import { FormattedMessage } from 'react-intl';
 import { handleLoginApi } from '../../services/userService';
 class Login extends Component {
   constructor(props) {
@@ -76,7 +76,12 @@ class Login extends Component {
                   onChange={(event) => this.handleOnChangePassword(event)}
                 />
                 <span onClick={() => this.showHidePassword()}>
-                  <i className={this.state.isshowpassword ? 'fas fa-eye' : 'fas fa-eye-slash'}></i>
+                  <i
+                    className={
+                      this.state.isshowpassword
+                        ? 'fas fa-eye'
+                        : 'fas fa-eye-slash'
+                    }></i>
                 </span>
               </div>
             </div>
@@ -113,7 +118,8 @@ const mapDispatchToProps = (dispatch) => {
   return {
     navigate: (path) => dispatch(push(path)),
     // userLoginFail: () => dispatch(actions.userLoginFail()),
-    userLoginSuccess: (userInfor) => dispatch(actions.userLoginSuccess(userInfor))
+    userLoginSuccess: (userInfor) =>
+      dispatch(actions.userLoginSuccess(userInfor))
   };
 };
 export default connect(mapStateToProps, mapDispatchToProps)(Login);

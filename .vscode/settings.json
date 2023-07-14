@@ -1,11 +1,13 @@
 {
-    "prettier.bracketSameLine": true,
-    "prettier.proseWrap": "always",
-    "prettier.singleQuote": true,
-    "turboConsoleLog.wrapLogMessage": false,
-    "turboConsoleLog.logMessagePrefix": "",
-    "turboConsoleLog.insertEnclosingFunction": false,
-    "turboConsoleLog.insertEnclosingClass": false,
-    "turboConsoleLog.includeFileNameAndLineNum": false,
-    "turboConsoleLog.delimiterInsideMessage": ""
+  "prettier.bracketSameLine": true,
+  "prettier.proseWrap": "preserve",
+  "prettier.singleQuote": true,
+  "turboConsoleLog.wrapLogMessage": false,
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.delimiterInsideMessage": "",
+  "prettier.printWidth": 120,
+  "prettier.tabWidth": 2
 }

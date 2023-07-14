@@ -2,12 +2,10 @@
     "recommendations": [
         "sibiraj-s.vscode-scss-formatter",
         "tabnine.tabnine-vscode",
-        "ms-vscode.sublime-keybindings",
         "alefragnani.project-manager",
         "esbenp.prettier-vscode",
         "zhuangtongfa.material-theme",
         "pkief.material-icon-theme",
-        "dsznajder.es7-react-js-snippets",
         "formulahendry.auto-rename-tag",
         "steoates.autoimport",
         "formulahendry.auto-close-tag",
